@@ -1,0 +1,72 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    width: 800px;
+    height: 600px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#box .play {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 45%;
+    z-index: 10;
+}
+
+#box .replay {
+    position: absolute;
+    left: 50%;
+    margin-left: -54px;
+    top: 61%;
+    z-index: 10;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#box canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#cav1 {
+    z-index: 1;
+}
+
+img {
+    position: absolute;
+    z-index: 5;
+}
+
+#box span {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    top: 5px;
+    left: 5px;
+    font-size: 24px;
+    font-family: 'Verdana';
+}
+
+#box div {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    width: 112px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Verdana';
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    z-index: 4;
+    cursor: pointer;
+}
